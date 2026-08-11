@@ -1,0 +1,171 @@
+# ============================================================
+# Altium Designer .gitignore
+# ============================================================
+
+# ------------------------------------------------------------
+# Altium automatic backup / history folders
+# ------------------------------------------------------------
+History/
+__Previews/
+
+# Sometimes generated with slightly different naming
+*/History/
+*/__Previews/
+
+# ------------------------------------------------------------
+# Altium generated output folders
+# ------------------------------------------------------------
+Project Outputs for */
+Project Logs for */
+
+# Generic output directories if you create them
+Outputs/
+Output/
+Generated/
+Fabrication/
+Assembly/
+
+# ------------------------------------------------------------
+# Altium temporary / lock files
+# ------------------------------------------------------------
+*.PcbDocPreview
+*.SchDocPreview
+
+*.DsnWrk
+*.DsnWrk.user
+
+*.PrjPcbStructure
+*.PrjPcbStructure.user
+
+*.PrjPcbVariants
+
+*.LOG
+*.log
+
+*.TMP
+*.tmp
+
+*.bak
+*.BAK
+
+*.~*
+~$*
+
+# ------------------------------------------------------------
+# Altium generated reports
+# ------------------------------------------------------------
+*.REP
+*.rep
+
+*.RUL
+*.rul
+
+*.ERR
+*.err
+
+# ------------------------------------------------------------
+# ECO / comparison / generated change files
+# ------------------------------------------------------------
+*.eco
+*.ECO
+
+# ------------------------------------------------------------
+# Database/cache files
+# ------------------------------------------------------------
+*.ldb
+*.LDB
+*.db
+*.DB
+
+# ------------------------------------------------------------
+# Altium local/user-specific files
+# ------------------------------------------------------------
+*.user
+*.User
+
+# ------------------------------------------------------------
+# Simulation-generated files
+# Uncomment/add more if you begin using Altium simulation
+# ------------------------------------------------------------
+*.nsx
+*.sdf
+*.sdo
+
+# ------------------------------------------------------------
+# Manufacturing outputs
+#
+# Usually these are generated from the source design, so they
+# do not need to be version controlled unless you intentionally
+# want released fabrication packages in Git.
+# ------------------------------------------------------------
+*.Gerber
+*.GBL
+*.GBO
+*.GBS
+*.GML
+*.GP1
+*.GP2
+*.GP3
+*.GP4
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+
+*.DRL
+*.drl
+*.NC
+*.nc
+
+*.IPC
+*.ipc
+*.IPC-D-356
+
+*.ODB
+*.odb
+
+# Pick-and-place / BOM generated outputs
+*.csv
+*.CSV
+*.xlsx
+*.XLSX
+
+# ------------------------------------------------------------
+# PDF / documentation outputs
+# Uncomment these if PDFs are always generated artifacts.
+# ------------------------------------------------------------
+# *.pdf
+# *.PDF
+
+# ------------------------------------------------------------
+# Operating system junk
+# ------------------------------------------------------------
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ------------------------------------------------------------
+# Editor / IDE metadata
+# ------------------------------------------------------------
+.vscode/
+.idea/
+
+# ------------------------------------------------------------
+# IMPORTANT:
+# DO NOT ignore the following Altium design source files:
+#
+# *.PrjPcb
+# *.SchDoc
+# *.PcbDoc
+# *.SchLib
+# *.PcbLib
+# *.IntLib
+# ------------------------------------------------------------
