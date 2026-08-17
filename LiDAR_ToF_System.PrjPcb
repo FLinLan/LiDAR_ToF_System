@@ -118,7 +118,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PJVETLED
 
 [Document5]
-DocumentPath=Microcontroller.SchDoc
+DocumentPath=LiDAR_Microcontroller.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
